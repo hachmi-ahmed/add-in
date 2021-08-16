@@ -16,11 +16,11 @@
   <DisplayName DefaultValue="Outlook recipients checker" />
   <Description DefaultValue="This project check max recipient number"/>
    <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://intrach2.novateam.com/outlook/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://intrach2.novateam.com/outlook/assets/logo-filled.png"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/assets/logo-filled.png"/>
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
-    <AppDomain>https://intrach2.novateam.com/outlook</AppDomain>
+    <AppDomain>https://raw.githubusercontent.com/hachmi-ahmed/add-in/main</AppDomain>
   </AppDomains>
   <!--End Basic Settings. -->
   <Hosts>
@@ -34,7 +34,7 @@
    <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://intrach2.novateam.com/outlook/commands.html"/>
+        <SourceLocation DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/commands.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -67,12 +67,12 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="icon16" DefaultValue="https://intrach2.novateam.com/outlook/assets/icon-16.png"/>
-          <bt:Image id="icon32" DefaultValue="https://intrach2.novateam.com/outlook/assets/icon-32.png"/>
-          <bt:Image id="icon80" DefaultValue="https://intrach2.novateam.com/outlook/assets/icon-80.png"/>
+          <bt:Image id="icon16" DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/assets/icon-16.png"/>
+          <bt:Image id="icon32" DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/assets/icon-32.png"/>
+          <bt:Image id="icon80" DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="functionFile" DefaultValue="https://intrach2.novateam.com/outlook/commands.html"/>
+          <bt:Url id="functionFile" DefaultValue="https://raw.githubusercontent.com/hachmi-ahmed/add-in/main/commands.html"/>
         </bt:Urls>
       </Resources>
     </VersionOverrides>
